@@ -60,7 +60,7 @@ async function main (){
     const memesImageList = await mapImageList()
     enablePhotoUpLoad()
     await createGallery(memesImageList)
-    await changeMemePicture(memesImageList[3].path)
+    await changeMemePicture(memesImageList[0].path)
   }
 
 main()
